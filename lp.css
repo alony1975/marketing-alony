@@ -168,8 +168,9 @@
   .mobile-bar{display:none}
 
   /* Reveal */
-  .reveal{opacity:0;transform:translateY(24px);transition:opacity .6s ease,transform .6s ease}
-  .reveal.in{opacity:1;transform:none}
+  .reveal{opacity:1;transform:none;transition:opacity .6s ease,transform .6s ease}
+  .ck-js .reveal{opacity:0;transform:translateY(24px)}
+  .ck-js .reveal.in{opacity:1;transform:none}
   @media (prefers-reduced-motion:reduce){.reveal{opacity:1;transform:none;transition:none}html{scroll-behavior:auto}}
 
   @media (max-width:960px){

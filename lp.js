@@ -1,3 +1,4 @@
+document.documentElement.classList.add('ck-js');
 /*
   ===== לאן הלידים נשלחים =====
   כדי שהפניות יגיעו אליכם למייל, צרו טופס חינמי בשירות כמו Formspree (formspree.io)
